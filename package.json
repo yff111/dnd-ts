@@ -62,7 +62,6 @@
   "dependencies": {},
   "devDependencies": {
     "@antfu/eslint-config": "^9.1.0",
-    "@faker-js/faker": "^10.5.0",
     "bumpp": "^11.1.0",
     "copyfiles": "^2.4.1",
     "embedme": "^1.22.1",
