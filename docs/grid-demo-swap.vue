@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { createDragDrop } from 'superdrop'
-import { swapElements } from 'superdrop/utils'
+import { createDragDrop } from 'easydnd'
+import { swapElements } from 'easydnd/utils'
 
 import { onMounted, onUnmounted, ref } from 'vue'
 import COLORS from './data/MOCK_DATA_COLORS.json'

@@ -4,7 +4,7 @@ Adds an absolutely positioned element to indicate the drop position of the dragg
 
 <script setup>
 
-import 'superdrop/dist/styles.css'
+import 'easydnd/dist/styles.css'
 import { defineClientComponent } from 'vitepress'
 
 const IndicatorDemo = defineClientComponent(() => {

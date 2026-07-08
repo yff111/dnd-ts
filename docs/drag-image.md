@@ -4,7 +4,7 @@ Adds a custom drag image that follows the mouse cursor while dragging.
 
 <script setup>
 
-import 'superdrop/dist/styles.css'
+import 'easydnd/dist/styles.css'
 import { defineClientComponent } from 'vitepress'
 
 const DragImageDemo = defineClientComponent(() => {

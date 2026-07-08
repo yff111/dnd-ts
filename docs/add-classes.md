@@ -5,7 +5,7 @@ Temporarily adds classes to the DOM elements involved in the drag & drop operati
 ## Usage
 
 ```ts
-import createDragDrop, { addClasses } from 'superdrop'
+import createDragDrop, { addClasses } from 'easydnd'
 
 createDragDrop({
   container,

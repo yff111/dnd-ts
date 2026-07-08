@@ -5,8 +5,8 @@
     "moduleResolution": "bundler",
     "ignoreDeprecations": "6.0",
     "paths": {
-      "superdrop": ["./src/"],
-      "superdrop/*": ["./src/*"],
+      "easydnd": ["./src/"],
+      "easydnd/*": ["./src/*"],
       "easydnd": ["./src/"],
       "easydnd/*": ["./src/*"]
     },

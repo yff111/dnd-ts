@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { createDragDrop } from 'superdrop'
-import { type TreeNode, moveTreeNodesById } from 'superdrop/utils'
+import { createDragDrop } from 'easydnd'
+import { type TreeNode, moveTreeNodesById } from 'easydnd/utils'
 import { onMounted, onUnmounted, ref } from 'vue'
 
 import data from './data/MOCK_DATA.json'

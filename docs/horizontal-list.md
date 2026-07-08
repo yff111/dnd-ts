@@ -1,7 +1,7 @@
 # Horizontal List
 
 <script setup>
-  import 'superdrop/dist/styles.css'
+  import 'easydnd/dist/styles.css'
   import { defineClientComponent } from 'vitepress'
 
   const HorizontalListDemo = defineClientComponent(() => import('./horizontal-list-demo.vue'))

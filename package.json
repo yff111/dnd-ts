@@ -1,5 +1,5 @@
 {
-  "name": "superdrop",
+  "name": "easydnd",
   "type": "module",
   "version": "0.2.2",
   "description": "Drag & Drop – low level, modular, performant. Zero dependencies.",

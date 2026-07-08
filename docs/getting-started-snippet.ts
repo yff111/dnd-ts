@@ -1,9 +1,9 @@
 /* eslint-disable unused-imports/no-unused-vars */
-import createDragDrop from 'superdrop'
+import createDragDrop from 'easydnd'
 
 // provides a few basic styles for drop-animations etc.
 // @ts-expect-error — CSS module, no types needed
-import 'superdrop/dist/styles.css'
+import 'easydnd/dist/styles.css'
 
 const instance = createDragDrop(document.getElementById('list')!, {
   // adds css classes to drag-, drop- and container-elements
