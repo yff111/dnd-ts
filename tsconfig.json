@@ -7,8 +7,8 @@
     "paths": {
       "superdrop": ["./src/"],
       "superdrop/*": ["./src/*"],
-      "dndrxjs": ["./src/"],
-      "dndrxjs/*": ["./src/*"]
+      "easydnd": ["./src/"],
+      "easydnd/*": ["./src/*"]
     },
     "resolveJsonModule": true,
     "types": ["vitest/globals"],

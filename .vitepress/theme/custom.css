@@ -1,0 +1,74 @@
+/* :root {
+  --vp-c-brand-1: #ed448d;
+  --vp-c-brand-2: #ed448d;
+  --vp-c-text-1: #222;
+  --vp-button-brand-bg: #ed448d;
+  --vp-sidebar-bg-color: transparent;
+  --vp-nav-logo-height: 32px;
+  accent-color: #000;
+}
+
+.dark {
+  --vp-c-text-1: #fff;
+} 
+.title {
+  font-weight: 700 !important;
+}
+*/
+ul.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 !important;
+}
+
+ul.list li {
+  list-style: none;
+  margin-top: 0;
+}
+
+.list-item {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  cursor: grab;
+  align-items: center;
+  background: #fff;
+  color: #000;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin-bottom: 4px;
+}
+.list-item img {
+  pointer-events: none;
+}
+
+:root {
+  --backgroundColor: rgba(255, 255, 255);
+  --squareColor: rgba(100, 100, 100, 0.06);
+  --squareSize: 0.5em;
+}
+.demo {
+  color: #000;
+  max-height: 400px;
+  outline: 1px solid #eee;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #fff;
+  background-image: linear-gradient(
+      45deg,
+      var(--squareColor) 25%,
+      transparent 25%
+    ),
+    linear-gradient(135deg, var(--squareColor) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--squareColor) 75%),
+    linear-gradient(135deg, transparent 75%, var(--squareColor) 75%);
+  background-size: calc(2 * var(--squareSize)) calc(2 * var(--squareSize));
+  background-position:
+    0 0,
+    var(--squareSize) 0,
+    var(--squareSize) calc(-1 * var(--squareSize)),
+    0 calc(-1 * var(--squareSize));
+}

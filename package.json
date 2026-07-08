@@ -5,10 +5,10 @@
   "description": "Drag & Drop – low level, modular, performant. Zero dependencies.",
   "author": "yff111",
   "license": "MIT",
-  "homepage": "https://yff111.github.io/dndrxjs/",
+  "homepage": "https://yff111.github.io/easydnd/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yff111/dndrxjs.git"
+    "url": "git+https://github.com/yff111/easydnd.git"
   },
   "publishConfig": {
     "access": "public",
