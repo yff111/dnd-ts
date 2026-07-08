@@ -36,6 +36,7 @@ function indicator(options?: Partial<IndicatorPluginOptions>): DragDropPlugin {
   }
 
   const stop = () => {
+    indicatorElement.setAttribute('class', indicatorClasses.initial ?? '')
     indicatorElement.remove()
     styleNode.remove()
     restorePosition()
